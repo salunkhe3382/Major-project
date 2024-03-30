@@ -1,0 +1,19 @@
+VARIABLES:
+  DATA_PATH: D:\Heart
+DATASET: ${VARIABLES.DATA_PATH}/backend/data/heart.csv
+LR_MODEL: ${VARIABLES.DATA_PATH}/backend/saved_models/logistic_regression_model.sav
+RF_MODEL: ${VARIABLES.DATA_PATH}/backend/saved_models/random_forest_model.sav
+KNN_MODEL: ${VARIABLES.DATA_PATH}/backend/saved_models/knn_model.sav
+DT_MODEL: ${VARIABLES.DATA_PATH}/backend/saved_models/decision_tree_model.sav
+SVM_MODEL: ${VARIABLES.DATA_PATH}/backend/saved_models/support_vector_machine_model.sav
+LR_SCALER: ${VARIABLES.DATA_PATH}/backend/saved_models/logistic_regression_model_scaler
+RF_SCALER: ${VARIABLES.DATA_PATH}/backend/saved_models/random_forest_model_scaler
+KNN_SCALER: ${VARIABLES.DATA_PATH}/backend/saved_models/knn_model_scaler
+DT_SCALER: ${VARIABLES.DATA_PATH}/backend/saved_models/decision_tree_model_scaler
+SVM_SCALER: ${VARIABLES.DATA_PATH}/backend/saved_models/support_vector_machine_model_scaler
+LR_CONF_MATRIX: ${VARIABLES.DATA_PATH}/backend/saved_models/logistic_regression_model_conf_matrix
+RF_CONF_MATRIX: ${VARIABLES.DATA_PATH}/backend/saved_models/random_forest_model_conf_matrix
+KNN_CONF_MATRIX: ${VARIABLES.DATA_PATH}/backend/saved_models/knn_model_conf_matrix
+DT_CONF_MATRIX: ${VARIABLES.DATA_PATH}/backend/saved_models/decision_tree_model_conf_matrix
+SVM_CONF_MATRIX: ${VARIABLES.DATA_PATH}/backend/saved_models/support_vector_machine_model_conf_matrix
+
